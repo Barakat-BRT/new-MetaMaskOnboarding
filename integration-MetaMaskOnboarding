@@ -1,3 +1,14 @@
+// As an ES6 module
+import MetaMaskOnboarding from '@metamask/onboarding';
+// Or as an ES5 module
+const MetaMaskOnboarding = require('@metamask/onboarding');
+
+<script src="./metamask-onboarding.bundle.js"></script>
+
+const onboarding = new MetaMaskOnboarding();
+
+onboarding.startOnboarding();
+
 const onboarding = new MetaMaskOnboarding();
 onboarding.startOnboarding();
 import MetaMaskOnboarding from '@metamask/onboarding';
